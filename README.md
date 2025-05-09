@@ -1,60 +1,117 @@
 # DJ Pepe NFT Marketplace
 
-This is a NFT Marketplace powered by Generative AI for creating NFT assets using Stable Diffusion, DALL-E and Midjourney.
+DJ Pepe NFT Marketplace is a decentralized platform that enables users to create, buy, and sell NFTs, with a focus on generative art. Built using modern web technologies and blockchain integration, it offers a seamless experience for NFT enthusiasts.
 
 
 
-https://github.com/user-attachments/assets/79923f0a-3a58-43a0-b217-c884c5da3007
+![User Interface Screenshot](./public/pepe.png)
 
+🌐 Live Demo: [dj-pepe-nft-marketplace.vercel.app](https://dj-pepe-nft-marketplace.vercel.app/)
 
-## Technologies Used
+---
 
--Frontend
+## 🛠️ Technologies Used
 
-- [Next.js 14](https://nextjs.org/docs/getting-started)
-- [NextUI v2](https://nextui.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [TypeScript](https://www.typescriptlang.org/)
-- [Framer Motion](https://www.framer.com/motion/)
+### Frontend
 
--Backend
+- Next.js 14
+- Tailwind CSS
+- NextUI v2
+- TypeScript
+- Framer Motion
 
-- [Node.js](https://nodejs.org/)
-- [Express.js](https://expressjs.com/)
-- [postgres](https://www.postgresql.org/)
-- [subgraph](https://thegraph.com/)
+### Backend
 
--Smart Contract
+- Node.js
+- Express.js
+- PostgreSQL
+- Subgraph
 
-- [solidity](https://docs.soliditylang.org/en/v0.8.17/)
-- [hardhat](https://hardhat.org/)
+### Blockchain
 
-### Install dependencies
+- Solidity
+- Hardhat
+- IPFS for decentralized storage
 
-You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
+---
 
-```bash
-npm install
+## 🚀 Features
+
+- **Generative Art Creation**: Leverages AI models like Stable Diffusion, DALL·E, and Midjourney to generate unique NFT assets.
+- **NFT Minting**: Users can mint their generative art as NFTs directly from the platform.
+- **Marketplace Functionality**: List, buy, and sell NFTs with integrated smart contract support.
+- **User Dashboard**: Manage your NFT collections, track sales, and monitor activity.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+
+---
+
+## 🧰 Getting Started
+
+### Prerequisites
+
+- Node.js (v16.14.0 or higher)
+- npm, yarn, pnpm, or bun
+- Metamask wallet extension
+
+### Installation
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/KingCode0624/DjPepe-NFT-Markeplace.git
+   cd DjPepe-NFT-Markeplace
+   ```
+
+2. **Install dependencies**:
+
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server**:
+
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. **Access the application**:
+
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
+---
+
+## ⚙️ Configuration
+
+### Environment Variables
+
+Create a `.env.local` file in the root directory and add the following variables:
+
+```env
+NEXT_PUBLIC_API_URL=your_api_url
+NEXT_PUBLIC_IPFS_GATEWAY=your_ipfs_gateway
+# Add other necessary environment variables
 ```
 
-### Run the development server
+### Tailwind CSS with pnpm
 
-```bash
-npm run dev
-```
+If you're using `pnpm`, add the following to your `.npmrc` file:
 
-### Setup pnpm (optional)
-
-If you are using `pnpm`, you need to add the following code to your `.npmrc` file:
-
-```bash
+```ini
 public-hoist-pattern[]=*@nextui-org/*
 ```
 
-After modifying the `.npmrc` file, you need to run `pnpm install` again to ensure that the dependencies are installed correctly.
+Then, reinstall dependencies:
 
-## License
+```bash
+pnpm install
+```
 
-This project is licensed under the MIT License.
+---
 
-Feel free to use this format and customize it for your specific project needs! Let me know if you need further tweaks.
+## 📄 License
+
+This project is licensed under the [MIT License](https://github.com/KingCode0624/DjPepe-NFT-Markeplace/blob/main/LICENSE).
