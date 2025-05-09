@@ -4,7 +4,7 @@ DJ Pepe NFT Marketplace is a decentralized platform that enables users to create
 
 
 
-![User Interface Screenshot](./public/pepe.png)
+![User Interface Screenshot](./public/pepe.PNG)
 
 🌐 Live Demo: [dj-pepe-nft-marketplace.vercel.app](https://dj-pepe-nft-marketplace.vercel.app/)
 
